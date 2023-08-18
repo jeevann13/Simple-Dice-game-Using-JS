@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(39, 39, 39);
+}
+
+.heading{
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.text{
+    background: linear-gradient(65deg, #f08809, #cf23cf, #ebd513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.players{
+    width: 100%;
+    height: auto;
+    margin-block: 4rem;
+    text-align: center;
+}
+
+.inner-players{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.player-1, .player-2{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.players button{
+    margin-top: 2rem;
+    padding: 1rem  2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.winner-result{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
